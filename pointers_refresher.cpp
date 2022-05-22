@@ -39,6 +39,16 @@ int main(){
     while(!q.empty()){
         cout << q.top() << endl; q.pop();
     }
+    cout << "new tests" << endl;
+    int *p1;
+    int g[10] = {1,2,3,4,5};
+    p1 = g;
+    
+    
+    for(int i=0; i<5; i++){
+        cout << *p1 << endl; p1++;
+    }
+
   
 
 }
